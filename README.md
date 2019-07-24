@@ -12,13 +12,13 @@
 npm init -y
 ```
 
-# Add webpack as a dev dependency to the project
+Add webpack as a dev dependency to the project
 
 ```sh
 npm install webpack -D
 ```
 
-# Add the following script to package.json
+Add the following script to package.json
 
 ```json
 "scripts": {
