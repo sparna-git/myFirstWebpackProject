@@ -1,7 +1,5 @@
 
-
-### Sources
-
+### Sources
 
 - https://medium.com/@ZeFifi/d%C3%A9buter-avec-webpack-partie-1-import-export-et-compilation-ffd45bb3943d
 - https://geekco.fr/blog/webpack-4-ma-configuration-pour-compiler-javascript-html-css-images-et-fonts
@@ -32,7 +30,7 @@ Add the following script to package.json
 },
 ```
 
-### Create folder structure
+### Create folder structure
 
  - Create a new folder called src in the root of the project.
  - Create a file inside src called app.js.
@@ -84,9 +82,7 @@ module.exports = config;
 document.write("Je débute avec Webpack !");
 ```
 
-
-### Tester
-
+### Tester
 
 Lancer `npm run build` puis ouvrir index.html dans un navigateur.
 Lancer `npm run start` pour activer le rafraichissement automatique de la compilation.
@@ -131,7 +127,7 @@ document.write(a);
 Tester en lançant `npm run build` et en ouvrant `index.html`.
 
 
-### Ajouter la compilation du scss en CSS
+### Ajouter la compilation du scss en CSS
 
 
 Add the `assets` and `assets/scss` directories structure inside `src` :
@@ -282,7 +278,7 @@ Add the plugin to `webpack.config.js` :
 ```
 
 
-### Add webpack dashboard
+### Add webpack dashboard
 
 
 Add dependency :
