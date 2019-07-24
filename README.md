@@ -1,4 +1,10 @@
+### Sources
 
+- https://medium.com/@ZeFifi/d%C3%A9buter-avec-webpack-partie-1-import-export-et-compilation-ffd45bb3943d
+- https://geekco.fr/blog/webpack-4-ma-configuration-pour-compiler-javascript-html-css-images-et-fonts
+- https://www.valentinog.com/blog/babel/
+- https://scotch.io/tutorials/setting-up-webpack-for-any-project
+- https://vuejs-templates.github.io/webpack/structure.html	
 
 ### Initialise package.json pour NPM
 
