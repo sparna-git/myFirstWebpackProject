@@ -2,13 +2,16 @@
 
 ### Sources
 
+
 - https://medium.com/@ZeFifi/d%C3%A9buter-avec-webpack-partie-1-import-export-et-compilation-ffd45bb3943d
 - https://geekco.fr/blog/webpack-4-ma-configuration-pour-compiler-javascript-html-css-images-et-fonts
 - https://www.valentinog.com/blog/babel/
 - https://scotch.io/tutorials/setting-up-webpack-for-any-project
 - https://vuejs-templates.github.io/webpack/structure.html	
 
+
 ### Initialise package.json pour NPM
+
 
 ```sh
 npm init -y
@@ -81,13 +84,16 @@ module.exports = config;
 document.write("Je débute avec Webpack !");
 ```
 
+
 ### Tester
+
 
 Lancer `npm run build` puis ouvrir index.html dans un navigateur.
 Lancer `npm run start` pour activer le rafraichissement automatique de la compilation.
 
 
 ### Intégrer Babel
+
 
 Ajouter les dépendances :
 
@@ -177,6 +183,7 @@ Tester avec `npm run start`.
 
 ### Extraire le CSS compilé dans le bundle dans un fichier CSS séparé
 
+
 Ajouter le plugin `mini-css-extract-plugin`
 
 ```sh
@@ -216,6 +223,7 @@ module.exports = {
 
 ### Installer un serveur de développement avec Hot Module Reload
 
+
 Installer la dépendance :
 
 ```
@@ -241,7 +249,6 @@ Remplacer la commande `start`dans package.json :
 ```
 "start": "webpack-dev-server -d --hot --config webpack.config.js --watch"
 ```
-
 
 ### Move index.html in src and add HTML Webpack plugin
 
@@ -276,6 +283,7 @@ Add the plugin to `webpack.config.js` :
 
 
 ### Add webpack dashboard
+
 
 Add dependency :
 
